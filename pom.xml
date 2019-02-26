@@ -9,7 +9,7 @@
     <artifactId>ntriples</artifactId>
     <name>Antlr NTriples Grammar</name>
 
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <url>http://semantalytics.com</url>
 
@@ -35,6 +35,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <antlr.version>4.7</antlr.version>
     </properties>
+
+    <modules>
+        <module>ntriples-grammar</module>
+        <module>ntriples-parser</module>
+        <module>ntriples-grammar</module>
+        <module>ntriples-parser</module>
+    </modules>
 
     <build>
         <plugins>
